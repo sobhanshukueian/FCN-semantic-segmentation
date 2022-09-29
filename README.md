@@ -26,9 +26,9 @@ Trainer class Does the main part of code which is training model, plot the train
 
 I Defined `Adam` Optimizer with learning rate 0.0002.
 
-Each generative model training step occurse in `train_generator` function, descriminator model training step in `train_descriminator` and whole trining process in 
+Does Each training step in `train_step` function and validation step in `val_step` function and whole trining process in 
 `train` function.
-
+ 
 ## Some Configurations
  
 *   You can set epoch size : `EPOCHS` and batch size : `BATCH_SIZE`.
